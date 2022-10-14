@@ -1,0 +1,4 @@
+main: me.relend.parkour.Parkour
+name: Parkour
+version: 1.0
+api-version: 1.19
