@@ -22,6 +22,14 @@ public class Util {
 		return strings;
 	}
 
+	public static List<String> colorizeList(String... list) {
+		List<String> strings = new ArrayList<>();
+		for (String s : list) {
+			strings.add(colorize(s));
+		}
+		return strings;
+	}
+
 	public static String colorize(String message) {
 		return translateHexColorCodes(ChatColor.translateAlternateColorCodes('&', message));
 	}

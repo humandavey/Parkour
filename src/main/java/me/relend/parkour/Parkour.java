@@ -1,7 +1,8 @@
 package me.relend.parkour;
 
-import me.relend.parkour.listeners.PKPlayerListener;
-import me.relend.parkour.manager.PlayerManager;
+import me.relend.parkour.commands.command.ParkourCMD;
+import me.relend.parkour.listeners.*;
+import me.relend.parkour.manager.*;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -14,6 +15,7 @@ public class Parkour extends JavaPlugin {
 
 	private static Parkour instance;
 	private PlayerManager playerManager;
+	private MenuManager menuManager;
 	private FileConfiguration messagesConfig;
 
 	@Override
@@ -47,18 +49,24 @@ public class Parkour extends JavaPlugin {
 
 	private void setupManagers() {
 		playerManager = new PlayerManager();
+		menuManager = new MenuManager();
 	}
 
 	private void registerListeners() {
 		getServer().getPluginManager().registerEvents(new PKPlayerListener(), this);
+		getServer().getPluginManager().registerEvents(new MenuListener(), this);
 	}
 
 	private void registerCommands() {
-
+		new ParkourCMD();
 	}
 
 	public PlayerManager getPlayerManager() {
 		return playerManager;
+	}
+
+	public MenuManager getMenuManager() {
+		return menuManager;
 	}
 
 	public FileConfiguration getMessages() {

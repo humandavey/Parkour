@@ -34,7 +34,7 @@ public abstract class Command extends BukkitCommand {
 	}
 
 	@Override
-	public boolean execute(CommandSender commandSender, String s, String[] strings) {
+	public final boolean execute(CommandSender commandSender, String s, String[] strings) {
 		if (commandSender instanceof Player) {
 			execute((Player) commandSender, strings);
 		} else {
@@ -52,7 +52,7 @@ public abstract class Command extends BukkitCommand {
 	}
 
 	@Override
-	public List<String> tabComplete(CommandSender sender, String alias, String[] args) throws IllegalArgumentException {
+	public final List<String> tabComplete(CommandSender sender, String alias, String[] args) throws IllegalArgumentException {
 		if (sender instanceof Player) {
 			return tabComplete((Player) sender, args);
 		} else {

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Parkour:jar">
+    <output-path>$PROJECT_DIR$/../../Minecraft Servers/1.19.2 - TestServer/plugins</output-path>
+    <root id="archive" name="Parkour.jar">
+      <element id="module-output" name="Parkour" />
+    </root>
+  </artifact>
+</component>

@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Parkour:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc89489c-fff0-4e2b-b032-e28d43215ec9" name="Changes" comment="Initial Commit" />
+    <list default="true" id="dc89489c-fff0-4e2b-b032-e28d43215ec9" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Parkour_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/commands/command/ParkourCMD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/configuration/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/configuration/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/instance/ParkourArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/listeners/MenuListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/manager/MenuManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/ItemBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/MenuButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/menu/EasyParkourMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/menu/ParkourAdminMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/menus/menu/ParkourMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/relend/parkour/Parkour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/Parkour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/relend/parkour/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/relend/parkour/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/relend/parkour/util/Util.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -31,13 +56,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/humandavey/Documents/Minecraft Servers/1.19.2 - TestServer/plugins",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665715001742</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1665715015902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665715015902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
